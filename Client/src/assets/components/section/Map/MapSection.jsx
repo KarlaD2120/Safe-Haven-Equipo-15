@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import 'leaflet-defaulticon-compatibility';
+import 'leaflet-defaulticon-compatibility/dist/leaflet-defaulticon-compatibility.css';
 import Map from './Map';
 import HelpButton from './HelpButton';
 import 'isomorphic-fetch';

@@ -59,7 +59,7 @@ function SignIn() {
         <div className="signin-page">
             <div className='img-signin'>
                 <div className='img-filter'></div>
-                <img src="src/assets/images/img-registro.jpg" alt="more_than_a_body" />
+                <img src="/img-registro.jpg" alt="more_than_a_body" />
             </div>
             <div className='registro'>
                 <div className='form-signin'>

@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#map-description {
+  width: auto;
+  height: 100vh;
+  padding: 1.6vh 5vw;
+  background-color: #212126;
+  color: white;
+}
+#map-description h1 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 3rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+#map-description .main-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-top: 4.5rem;
+}
+#map-description #map-img {
+  margin-right: 10rem;
+  margin-left: 3rem;
+}
+#map-description .main-paragraph {
+  font-family: "Montserrat", sans-serif;
+  margin-right: 2rem;
+}
+#map-description .main-paragraph p {
+  text-align: left;
+}
+#map-description .main-paragraph p .highlighted-text {
+  color: #A6384C;
+}
+#map-description #help-button {
+  margin: 2rem;
+  background-color: #AE4659;
+  color: white;
+  font-weight: bold;
+  padding-top: 0.8rem;
+  padding-right: 2.5rem;
+  padding-bottom: 0.8rem;
+  padding-left: 2.5rem;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+#map-description #help-button:hover {
+  background-color: #BB8C94;
+}
+
+.image-gallery {
+  height: 100vh;
+  width: auto;
+}
+.image-gallery .carousel .slide img {
+  object-fit: cover;
+  height: 100vh;
+  width: 100%;
+}
+
+/*# sourceMappingURL=styles.css.map */

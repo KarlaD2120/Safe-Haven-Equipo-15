@@ -1,0 +1,14 @@
+.container-footer{
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem 1rem;
+    background-color: #A6384C;
+}
+.logo-img{
+    width: 170px;
+}
+.copyright-heading{
+    font-size: 30px;
+    color: white;
+    font-family: 'Bebas Neue', sans-serif;
+}

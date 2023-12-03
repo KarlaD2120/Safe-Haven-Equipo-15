@@ -1,0 +1,106 @@
+@use '../utils/theme' as v;
+
+.gender-violence-section{
+    width: auto;
+    height: 100vh; //Ocupa el tamaño de pantalla completa
+    padding: 1.6vh 5vw;
+
+    background-color: v.$tertiary-color;
+
+    #gender-violence-title{
+        color: v.$text-color;
+        font-family: v.$lower-case-text;
+        font-size: 2.7rem;
+        margin: 1rem;
+        padding: 2rem;
+        text-align: center;
+
+        .highlighted-text{
+            color: black;
+        }
+    }
+
+    #main-content{
+        display: flex;
+        align-items: center;
+
+        margin-top: 3.5rem;
+
+        .header-and-text-content{
+            width: 55%;
+            margin-right: 6rem;
+            margin-left: 3rem;
+            padding-left: 6rem;
+            align-items: center;
+            text-align: justify;
+            justify-content: center;
+
+            .power-text{
+                padding: 0.3rem;
+                width: fit-content;
+
+                background-color: v.$background-color-text;
+                color: v.$text-color;
+
+                font-family: v.$lower-case-text;
+                font-size: 2.2rem;
+            }
+
+            #text-paragraph{
+                align-items: center;
+                margin-top: 1.5rem;
+
+                font-family: v.$montserrat;
+                color: v.$text-color;
+                font-size: 1.4rem;
+
+                .highlighted-text{
+                    color: v.$background-color-text;
+                }
+            }
+
+            .more-information-btn{
+                border: none;
+                cursor: pointer;
+                border-radius: 15px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 3rem;
+                padding-right: 3rem;
+                margin-top: 1.5rem;
+
+                background-color: black;
+                color: v.$text-color;
+                font-family: v.$montserrat;
+                font-weight: bold;
+
+                transition: background-color 0.5s ease, color 0.5s ease, border 2s ease; 
+
+                box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+
+                &:hover{
+                    background-color: transparent;
+                    border: 1px solid #000000; 
+                    color: black;
+                    font-weight: bolder;
+                }
+                
+            }
+        }
+
+        #gender-violence-container{
+            width: 45%;
+            
+            #gender-violence-img{
+                width: 100%;
+                max-width: 300px; /* Ajusta este valor a lo que necesites */
+                height: auto;
+                margin-left: 6rem;
+                
+            }
+            
+        }
+    }
+
+    
+}

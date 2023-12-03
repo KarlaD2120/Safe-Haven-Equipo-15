@@ -1,0 +1,83 @@
+@use '../utils/theme' as v;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#map-description{
+    width: auto;
+    height: 100vh; //Ocupa el tamaño de pantalla completa
+    padding: 1.6vh 5vw;
+
+    background-color: #212126;
+    color: white;
+
+    #map-title{
+        font-family: v.$lower-case-text;
+        font-size: 3.8rem;
+        padding-top: 3rem;
+        text-align: center;
+    }
+
+    .main-container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        margin-top: 4.5rem;
+
+        #map-container{
+            width: 60%;
+        
+        }
+
+        .main-paragraph{
+            width: 40%;
+            font-family: v.$montserrat;
+            //margin: 2rem;
+            margin-right: 2rem;
+            margin-left: 3rem;
+            font-size: large;
+            p{
+                text-align: left;
+                .highlighted-text{
+                    color: v.$main-color;
+                }
+            }
+        }
+    }
+
+    #map-img{
+        //margin: 7rem;
+        margin-right: 10rem;
+        margin-left: 3rem;
+    }
+
+    
+
+    #help-button{
+        margin: 2rem;
+
+        background-color: v.$main-button-color;
+        color: v.$text-color;
+        font-weight: bold;
+
+        padding-top: 0.8rem;
+        padding-right: 2.5rem;
+        padding-bottom: 0.8rem;
+        padding-left: 2.5rem;
+
+        border: none;
+        border-radius: 30px;
+        font-size: 25px;
+
+        cursor: pointer;
+        transition: background-color 0.5s ease;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+        
+        &:hover{
+            background-color: v.$secondary-color;
+        }
+    }
+}

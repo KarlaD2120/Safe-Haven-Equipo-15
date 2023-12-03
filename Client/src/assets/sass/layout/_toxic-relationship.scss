@@ -1,0 +1,79 @@
+@use '../utils/theme' as v;
+
+.text-with-background{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('src/assets/images/woman-group.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .main-content{
+        display: flex;
+        text-align: center;
+        
+        h1{
+            margin: 5rem;
+            margin-top: -5rem;
+            padding-left: 3rem;
+            
+            font-size: 3.5rem;
+            
+            color: v.$main-color;
+            font-family: v.$lower-case-text;
+
+            .highlighted-text{
+                color: black;
+            }
+        }
+
+        p{
+            color: v.$main-color;
+            font-family: v.$montserrat;
+            text-align: right;
+            font-weight: bold;
+            font-size: 1.4rem;
+
+            margin-right: 6rem;
+            margin-left: 2rem;
+            padding: 0.1rem;
+            padding-left: 3rem;
+
+            text-shadow: 1px 1.5px 1px rgba(0, 0, 0, 0.2); 
+
+            .highlighted-text{
+                color: black;
+                font-weight: bold;
+            }
+        }
+
+        button{
+            border: none;
+            cursor: pointer;
+            border-radius: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 3rem;
+            padding-right: 3rem;
+            margin-top: 1.5rem;
+            margin-left: 33.2rem;
+
+            background-color: v.$background-color-text;
+            color: v.$text-color;
+            font-family: v.$montserrat;
+            font-weight: bold;
+            align-items: end;
+
+            transition: background-color 0.5s ease, color 0.5s ease;
+            
+            box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+
+            &:hover{
+                background-color: v.$text-color;
+                color: v.$background-color-text;
+            }
+        }
+    }
+}

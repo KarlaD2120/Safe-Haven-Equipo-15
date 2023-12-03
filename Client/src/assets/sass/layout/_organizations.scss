@@ -1,0 +1,39 @@
+@use '../utils/theme' as v;
+
+
+#main-organizations-container{
+    height: 100vh;
+    width: auto;
+    background-color: v.$tertiary-color;
+
+    .text-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        p{
+            font-family: v.$montserrat;
+            color: v.$text-color;
+            font-weight: bold;
+            font-size: large;
+
+            padding: 2rem;
+            margin-top: 4.5rem;
+            margin-left: 7rem;
+            margin-right: 3rem;
+
+            .highlighted-text{
+                color: v.$background-color-text;
+            }
+        }
+
+        h1{
+            color: v.$text-color;
+            font-family: v.$lower-case-text;
+            font-size: 4rem;
+            margin-top: 5rem;
+            margin-right: 7rem;
+        }
+    }
+
+}

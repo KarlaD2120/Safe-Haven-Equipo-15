@@ -1,0 +1,11 @@
+// ImageGallery.scss
+.image-gallery {
+    height: 85vh; // Asegura que el componente ocupe el 100% de la altura de la pantalla
+    width: auto; // Asegura que el componente ocupe el 100% del ancho de la pantalla
+
+    .carousel .slide img {
+        object-fit: cover; // Asegura que las imágenes se redimensionen correctamente para llenar su contenedor
+        height: 85vh;
+        width: 100%;
+    }
+}

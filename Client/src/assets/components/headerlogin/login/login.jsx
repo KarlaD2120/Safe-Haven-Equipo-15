@@ -1,17 +1,15 @@
 import { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import React from 'react';
 import Modal from 'react-modal';
 import './login.css';
 
 const Login = ({ isOpen, onRequestClose }) => {
-    const navigate = useNavigate();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [showPassword, setShowPassword] = useState(false);
 
-    const handleLogin = (e) => {
-        e.preventDefault();
+    const handleLogin = () => {
         // Aquí puedes realizar la lógica de autenticación o enviar los datos al servidor
         // Por ahora, solo mostraremos los datos en la consola
         console.log('Nombre de usuario:', username);
@@ -19,7 +17,7 @@ const Login = ({ isOpen, onRequestClose }) => {
 
         setUsername('');
         setPassword('');
-        navigate('/homelogin');
+
         // Luego, puedes llamar a la función de cierre del modal o realizar otras acciones
         onRequestClose();
     };

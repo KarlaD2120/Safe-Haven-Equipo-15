@@ -1,0 +1,143 @@
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 33, 38, 0.8);
+    z-index: 999;
+}
+
+
+.ModalContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+    margin: 35px auto;
+    padding: 1.8rem;
+    width: 600px;
+    height: 700px;
+    max-width: 80%;
+    background-color: #E5DCDC;
+    z-index: 1;
+}
+
+
+h2.login {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 70px;
+}
+
+p.login{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 60px;
+    font-size: 20px;
+}
+
+.registrate-link {
+    color: #A6384C;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.registrate-link:hover {
+    color: #A6384C;
+}
+
+
+
+.close-icon {
+    align-self: flex-end;
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #6e6767;
+    font-size: 18px;
+}
+
+.close-icon:hover {
+    color: #524f4f;
+}
+
+
+
+.formulario {
+    align-self: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.continuar {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #A6384C;
+    color: white;
+    border: 0;
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 18px;
+    font-weight: bold;
+}
+
+
+.email h4,
+.contrasena h4 {
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 24px;
+}
+
+
+.formulario label,
+.formulario input {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.input-email,
+.input-contrasena {
+    width: 520px;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 20px;
+}
+
+.formulario label.mostrar-contrasena {
+    align-self: flex-start;
+    margin-bottom: 0;
+    display: flex;
+    color: #A6384C;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.mostrar-contrasena-checkbox {
+    appearance: none;
+    margin-right: 8px;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    opacity: 0.7;
+    background-color: transparent;
+    border: 1px solid #A6384C;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.mostrar-contrasena-checkbox:checked {
+    background-color: #A6384C;
+}

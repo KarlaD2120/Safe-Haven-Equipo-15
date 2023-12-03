@@ -6,7 +6,7 @@ export default function Organizations() {
   const organizations = [
     {
       name: "ORMUSA",
-      photo: "src/assets/images/ORMUSA-LOGO.png",
+      photo: "/ORMUSA-LOGO.png",
       socialMedia: "@ormusa.org",
       description: "Realizan estudios sobre la situación actual de las mujeres como defensoras de derechos humanos en El Salvador y sobre normas y procesos de búsqueda de personas desaparecidas, especialmente mujeres.",
       contact: "Tel.: (503) 2556 0032",
@@ -14,7 +14,7 @@ export default function Organizations() {
     },
     {
       name: "Corte suprema de justicia",
-      photo: "src/assets/images/corte-suprema.png",
+      photo: "/corte-suprema.png",
       socialMedia: "@cortesupremasv",
       description: "Esta dirección ofrece servicios de atención integral para garantizar el acceso a la justicia de las víctimas de violencia de género, abuso sexual y maltrato a niñas, niños y adolescentes, así como violencia intrafamiliar.",
       contact: "Tel.: (503) 2271-8888",
@@ -22,7 +22,7 @@ export default function Organizations() {
     },
     {
       name: "Movimiento Salvadoreño de Mujeres",
-      photo: "src/assets/images/LOGO-MSM.png",
+      photo: "/LOGO-MSM.png",
       socialMedia: "@mujeres.msm",
       description: "Esta organización feminista lucha por las transformaciones sociales, trabajando en la defensa de los derechos humanos de las mujeres, juventudes y niñez, para una vida libre de violencia, sin brechas de desigualdad y lograr la equidad entre los géneros en El Salvador.",
       contact: "Tel.: (503) 2235-3756",

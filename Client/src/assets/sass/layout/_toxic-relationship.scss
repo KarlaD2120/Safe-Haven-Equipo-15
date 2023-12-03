@@ -1,7 +1,7 @@
 @use '../utils/theme' as v;
 
 .text-with-background{
-    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('src/assets/images/woman-group.jpg');
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('/woman-group.jpg');
     background-size: cover;
     height: 100vh;
     width: auto;

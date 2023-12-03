@@ -8,9 +8,9 @@ import '../../sass/layout/_gallery.scss'
 
 const ImageGallery = () => {
     const images = [
-        'src/assets/images/being-heard.jpg', 
-        'src/assets/images/choice.jpg',
-        'src/assets/images/stop-violence.jpg']; // Reemplaza estas URLs con las de tus imágenes
+        '/being-heard.jpg', 
+        '/choice.jpg',
+        '/stop-violence.jpg']; // Reemplaza estas URLs con las de tus imágenes
 
     return (
         <div className="image-gallery">

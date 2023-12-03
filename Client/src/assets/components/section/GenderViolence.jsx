@@ -18,7 +18,7 @@ export default function GenderViolence() {
                 
             </div>
             <div id='gender-violence-container'>
-                <img id='gender-violence-img' src="src/assets/images/gender-violence.jpeg" alt="Gender violence" />
+                <img id='gender-violence-img' src="/gender-violence.jpeg" alt="Gender violence" />
             </div>
         </div>
     </div>

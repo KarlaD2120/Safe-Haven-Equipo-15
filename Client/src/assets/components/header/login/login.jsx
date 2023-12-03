@@ -34,7 +34,7 @@ const Login = ({ isOpen, onRequestClose }) => {
         >
             <button className="close-icon" onClick={onRequestClose}>X</button>
             <h2 className='login'>INICIAR SESIÓN</h2>
-            <p className='login'>¿Aún no tienes una cuenta? <Link to="/registro" className="registrate-link">Regístrate</Link></p>
+            <p className='login'>¿Aún no tienes una cuenta? <Link to="/signin" className="registrate-link">Regístrate</Link></p>
             <div className='formulario'>
                 <form className='formulario' onSubmit={handleLogin}>
                     <label className='email'>
